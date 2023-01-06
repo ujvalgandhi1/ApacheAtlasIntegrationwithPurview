@@ -12,3 +12,6 @@ The three that are required are,
 * Data Curator role to access Catalog Data plane.
 * Data Source Administrator role to access Scanning Data plane.
 * Collection Admin role to access Account Data Plane and Metadata policy Data Plane.
+
+# Refer to the Excel file for the excel file and the python code for updating the lineage
+
