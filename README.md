@@ -17,4 +17,5 @@ The three that are required are,
 
 One important thing to note is that you need to grab the fully qualified name of the data source from Purview for the Excel file to work properly. Refer to the screenshot below to get the details
 
+![API Call](https://github.com/ujvalgandhi1/ApacheAtlasIntegrationwithPurview/blob/main/Assets/APICall.png)
 
