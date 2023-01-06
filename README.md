@@ -13,5 +13,8 @@ The three that are required are,
 * Data Source Administrator role to access Scanning Data plane.
 * Collection Admin role to access Account Data Plane and Metadata policy Data Plane.
 
-# Refer to the Excel file for the excel file and the python code for updating the lineage
+# Refer to the Excel file for the excel file and the python code for updating the lineage. All of these are found under the Assets folder
+
+One important thing to note is that you need to grab the fully qualified name of the data source from Purview for the Excel file to work properly. Refer to the screenshot below to get the details
+
 
