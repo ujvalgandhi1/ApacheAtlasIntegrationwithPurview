@@ -17,17 +17,17 @@ if __name__ == "__main__":
 
     # Authenticate against your Atlas server
     oauth = ServicePrincipalAuthentication(
-        tenant_id="<enter you tenant id, you can grab it from the Azure Active Directory Overview page>",
-        client_id="<Enter the Client id of the app you have created>",
-        client_secret="<This is the secret value>"
+        tenant_id="<enter your tenant id>",
+        client_id="<enter your client id>",
+        client_secret="<enter your secret>"
     )
     client = PurviewClient(
-        account_name = "<enter your purview instance name>",
+        account_name = "<enter your purview account name>",
         authentication=oauth
     )
 
     # SETUP: This is just setting up the excel file for you
-    file_path = "./demo_update_lineage_upload.xlsx"   #Can be changed to point to a specific location
+    file_path = "./demo_update_lineage_upload.xlsx"
     excel_config = ExcelConfiguration()
     excel_reader = ExcelReader(excel_config)
 
